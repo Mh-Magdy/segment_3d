@@ -1,4 +1,5 @@
 # segment_3d
+Work in progress: Adding the YOLOv8 inference node.
 
 ## Description
 
