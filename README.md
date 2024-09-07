@@ -22,6 +22,7 @@ Apache License, Version 2.0
 ## Prerequisites
 
 * ultralytics python3-module
+* [gb_visual_detection_3d_msgs](https://github.com/IntelligentRoboticsLabs/gb_visual_detection_3d_msgs)
  
 ## Usage
 
