@@ -8,4 +8,4 @@ working_frame: map
 mininum_detection_thereshold: 0.1
 minimum_probability: 0.35
 # interested_classes: ["orange","traffic light","chair","bottle","person", "italian_biscotti", "smoothie", "mango_juice", "crisps", "water", "sandwich", "toastie", "veggie_pot", "wrap", "espresso", "cappuccino", "americano","cup","table","bottle"]
-interested_classes: ["chair", "person", "bottle", "table","bottle", "car", "truck"]
+interested_classes: ["chair", "person", "bottle", "table","bottle", "car", "truck", "stop sign", "bench", "vehicle"]

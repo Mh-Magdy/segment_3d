@@ -39,6 +39,11 @@ target_link_libraries(segmentation_processor_node
 install(TARGETS segmentation_processor_node
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+## Add Python executable
+catkin_install_python(PROGRAMS
+  scripts/ultralytics_node.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
 
 ## Install header files
 install(DIRECTORY include/${PROJECT_NAME}/

@@ -6,7 +6,7 @@
 
 
 
-  <node pkg="objects_segmentation_3d" type="ultralytics_node.py" name="ultralytics_segmentation">
+  <node pkg="segmentation_3d" type="ultralytics_node.py" name="ultralytics_segmentation">
   </node>
 
   <node pkg="segmentation_3d" type="segmentation_processor_node" name="sgmentation_processor_node" output="screen">
