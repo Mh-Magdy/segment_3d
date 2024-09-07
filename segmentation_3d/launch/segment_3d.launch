@@ -1,0 +1,15 @@
+<launch>
+
+  <!-- Config camera image topic  -->
+  <arg name="camera_rgb_topic" default="/realsense/color/image_raw" />
+
+
+
+
+  <node pkg="objects_segmentation_3d" type="ultralytics_node.py" name="ultralytics_segmentation">
+  </node>
+
+  <node pkg="segmentation_3d" type="segmentation_processor_node" name="sgmentation_processor_node" output="screen">
+    <rosparam command="load" file="$(find segmentation_3d)/config/config.yaml" />
+  </node>
+</launch>
